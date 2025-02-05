@@ -1,0 +1,12 @@
+﻿@model List<String>
+
+<p>List of ToDo</p>
+<ul>
+    @{
+        foreach(string turn in Model)
+        {
+            <li>@turn</li>
+        }
+    }
+</ul> 
+
